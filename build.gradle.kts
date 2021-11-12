@@ -32,6 +32,8 @@ dependencies {
 	implementation("org.apache.commons:commons-csv:1.5")
 	runtimeOnly("com.h2database:h2")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	testImplementation(platform("org.junit:junit-bom:5.8.1"))
+	testImplementation("org.junit.jupiter:junit-jupiter")
 }
 
 tasks.withType<KotlinCompile> {

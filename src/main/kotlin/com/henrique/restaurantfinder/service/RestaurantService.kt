@@ -35,9 +35,9 @@ class RestaurantService(val db: RestaurantRepository) {
             (if(parameters.distance != null) it.DISTANCE <= parameters.distance!! else true) &&
             (if(parameters.customerRating != null) it.CUSTOMER_RATING >= parameters.customerRating!! else true) &&
             (if(parameters.price != null) it.CUSTOMER_RATING <= parameters.price!! else true) &&
-            (if(!parameters.cuisine.isNullOrBlank()) it.cuisine!!.NAME?.toLowerCase()
+            (if(!parameters.cuisine.isNullOrBlank()) it.cuisine!!.NAME.toLowerCase()
                 .contains(parameters.cuisine!!.toLowerCase()) else true) &&
-            (if(!parameters.restaurantName.isNullOrBlank()) it.NAME?.toLowerCase()
+            (if(!parameters.restaurantName.isNullOrBlank()) it.NAME.toLowerCase()
                 .contains(parameters.restaurantName!!.toLowerCase()) else true)
         }.sorted().take(5)
     }
