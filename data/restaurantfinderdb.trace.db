@@ -1,0 +1,18 @@
+2021-11-10 10:12:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "Restaurants" not found; SQL statement:
+INSERT INTO "Restaurants" ("CUISINE_ID", "CUSTOMER_RATING", "DISTANCE", "NAME", "PRICE") VALUES (?, ?, ?, ?, ?) [42102-200]
+2021-11-10 10:14:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "Restaurants" not found; SQL statement:
+INSERT INTO "Restaurants" ("CUISINE_ID", "CUSTOMER_RATING", "DISTANCE", "NAME", "PRICE") VALUES (?, ?, ?, ?, ?) [42102-200]
+2021-11-10 10:17:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "Restaurants" not found; SQL statement:
+INSERT INTO "Restaurants" ("CUISINE_ID", "CUSTOMER_RATING", "DISTANCE", "NAME", "PRICE") VALUES (?, ?, ?, ?, ?) [42102-200]
+2021-11-10 10:18:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "Restaurants" not found; SQL statement:
+INSERT INTO "Restaurants" ("CUISINE_ID", "CUSTOMER_RATING", "DISTANCE", "NAME", "PRICE") VALUES (?, ?, ?, ?, ?) [42102-200]
+2021-11-10 10:19:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "Restaurants" not found; SQL statement:
+INSERT INTO "Restaurants" ("CUISINE_ID", "CUSTOMER_RATING", "DISTANCE", "NAME", "PRICE") VALUES (?, ?, ?, ?, ?) [42102-200]
+2021-11-10 10:20:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "Restaurants" not found; SQL statement:
+INSERT INTO "Restaurants" ("CUISINE_ID", "CUSTOMER_RATING", "DISTANCE", "NAME", "PRICE") VALUES (?, ?, ?, ?, ?) [42102-200]
