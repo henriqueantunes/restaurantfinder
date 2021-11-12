@@ -6,7 +6,7 @@ It also has a Swagger service to document an Open API\
 
 The app loads the CSVs in the resources folder into an in memory database at startup. And provides two URLs to query the results
 
-##/findRestaurants 
+`/findRestaurants`	 
 For finding the restaurants based on some of the optional parameters in the JSON:
 ```
 {
@@ -18,7 +18,7 @@ For finding the restaurants based on some of the optional parameters in the JSON
 }
 ``` 
 
-##/getCuisines
+`/getCuisines`
 Get all the cuisines available
 
 ## Building and Running the APP
