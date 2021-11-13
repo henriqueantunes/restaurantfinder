@@ -36,6 +36,10 @@ dependencies {
 	testImplementation("org.junit.jupiter:junit-jupiter")
 }
 
+springBoot {
+	mainClass.set("com.henrique.restaurantfinder.RestaurantfinderApplicationKt")
+}
+
 tasks.withType<KotlinCompile> {
 	kotlinOptions {
 		freeCompilerArgs = listOf("-Xjsr305=strict")
