@@ -45,10 +45,10 @@ run the docker container:\
 #### Docker Hub
 
 You can also download the latest working image from my personal docker hub:\
-`docker pull henriqueantuness/restaurantfinder:1.0.0`
+`docker pull henriqueantuness/restaurantfinder:1.0.1`
 
 And run it on docker:
-`docker run -p 8080:8080 henriqueantuness/restaurantfinder:1.0.0`
+`docker run -p 8080:8080 henriqueantuness/restaurantfinder:1.0.1`
 
 ### Swagger
 
