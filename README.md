@@ -42,6 +42,14 @@ create a docker image running:\
 run the docker container:\
 `docker run -p 8080:8080 henrique/restaurantfinder`
 
+#### Docker Hub
+
+You can also download the latest working image from my personal docker hub:\
+`docker pull henriqueantuness/restaurantfinder:1.0.0`
+
+And run it on docker:
+`docker run -p 8080:8080 henriqueantuness/restaurantfinder:1.0.0`
+
 ### Swagger
 
 When the app is running, acces the url:\
