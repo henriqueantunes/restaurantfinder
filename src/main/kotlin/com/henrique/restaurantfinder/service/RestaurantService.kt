@@ -34,7 +34,7 @@ class RestaurantService(val db: RestaurantRepository) {
             // for the sake of readability the filter function is left separated by each parameter
             (if(parameters.distance != null) it.DISTANCE <= parameters.distance!! else true) &&
             (if(parameters.customerRating != null) it.CUSTOMER_RATING >= parameters.customerRating!! else true) &&
-            (if(parameters.price != null) it.CUSTOMER_RATING <= parameters.price!! else true) &&
+            (if(parameters.price != null) it.PRICE <= parameters.price!! else true) &&
             (if(!parameters.cuisine.isNullOrBlank()) it.cuisine!!.NAME.toLowerCase()
                 .contains(parameters.cuisine!!.toLowerCase()) else true) &&
             (if(!parameters.restaurantName.isNullOrBlank()) it.NAME.toLowerCase()

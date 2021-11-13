@@ -53,7 +53,7 @@ And run it on docker:
 ### Swagger
 
 When the app is running, acces the url:\
-`http://localhost:8080/swagger-ui/`
+`http://localhost:8080/swagger-ui.html`
 
 Swagger creates an easy way to make API calls to the application, so you can run your tests.\
 It also provides a documentation for the API, so you can see what parameters are necessary for each request.
